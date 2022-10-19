@@ -16,7 +16,7 @@ For more information, see [the documentation](https://www.scaleway.com/en/docs/s
 ## Example Usage
 
 ```hcl
-resource "scaleway_object_bucket" "some_bucket" {
+resource "scaleway_object_bucket" "main" {
   name = "some-unique-name"
 }
 
